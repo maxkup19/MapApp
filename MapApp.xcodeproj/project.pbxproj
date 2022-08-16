@@ -14,6 +14,7 @@
 		0AC8755928AC3470004E0B91 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC8755828AC3470004E0B91 /* Location.swift */; };
 		0AC8755C28AC3645004E0B91 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC8755B28AC3645004E0B91 /* LocationsDataService.swift */; };
 		0AC8755E28AC3743004E0B91 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC8755D28AC3743004E0B91 /* LocationsViewModel.swift */; };
+		0AC8756228AC408E004E0B91 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC8756128AC408E004E0B91 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0AC8755828AC3470004E0B91 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		0AC8755B28AC3645004E0B91 /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		0AC8755D28AC3743004E0B91 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		0AC8756128AC408E004E0B91 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				0AC8754928AC3304004E0B91 /* LocationsView.swift */,
+				0AC8756128AC408E004E0B91 /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				0AC8755C28AC3645004E0B91 /* LocationsDataService.swift in Sources */,
 				0AC8754A28AC3304004E0B91 /* LocationsView.swift in Sources */,
 				0AC8755928AC3470004E0B91 /* Location.swift in Sources */,
+				0AC8756228AC408E004E0B91 /* LocationsListView.swift in Sources */,
 				0AC8754828AC3304004E0B91 /* MapApp.swift in Sources */,
 				0AC8755E28AC3743004E0B91 /* LocationsViewModel.swift in Sources */,
 			);
