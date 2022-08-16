@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct MapAppApp: App {
+struct MapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationsView()
         }
     }
 }
