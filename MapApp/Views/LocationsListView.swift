@@ -25,7 +25,6 @@ struct LocationsListView: View {
             }
         }
         .listStyle(.plain)
-//        .scaledToFit()
     }
 }
 
