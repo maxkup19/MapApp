@@ -28,6 +28,9 @@ struct LocationsView: View {
                 infoLayer
             }
         }
+        .sheet(item: $lvm.sheetLocation) { location in
+            LocationDetailView(location: location )
+        }
     }
 }
 
