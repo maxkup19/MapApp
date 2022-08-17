@@ -52,4 +52,16 @@ class LocationsViewModel: ObservableObject {
             showLocationsList = false
         }
     }
+    
+    func  nextLocation() {
+        guard let currentIndex = locations.firstIndex(where: { $0 == mapLocation }) else {
+            print("Couldnt find location in locations array")
+            return
+        }
+        
+        let nextIndex = (currentIndex + 1) % locations.count
+        let nextLocation = locations[nextIndex]
+        showNextLocation(nextLocation)
+        
+    }
 }

@@ -25,6 +25,7 @@ struct LocationsListView: View {
             }
         }
         .listStyle(.plain)
+//        .scaledToFit()
     }
 }
 
@@ -32,6 +33,7 @@ struct LocationsListView_Previews: PreviewProvider {
     static var previews: some View {
         LocationsListView()
             .environmentObject(LocationsViewModel())
+            .previewLayout(.sizeThatFits)
     }
 }
 
